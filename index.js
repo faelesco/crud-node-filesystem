@@ -19,6 +19,9 @@ const crud = {
 console.log('Leitura do arquivo', crud.read());
 
 //Create
-crud.create({ id: Date.now(), content: 'Valor random' });
+const date = new Date();
+crud.create({ id: date, content: 'Json 1' });
 
 //Update
+
+//Delete
